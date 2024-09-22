@@ -173,7 +173,7 @@ def remove_user(message):
             response = '''Please Specify A User ID to Remove. 
  Usage: /remove <userid>'''
     else:
-        response = "You have not purchased yet purchase now from:- @MrRanDom8."
+        response = "You have not purchased yet purchase now from:- @adnan_shuttler."
 
     bot.reply_to(message, response)
 
@@ -192,7 +192,7 @@ def clear_logs_command(message):
         except FileNotFoundError:
             response = "Logs are already cleared ."
     else:
-        response = "You have not purchased yet purchase now from :- @MrRanDom8 ."
+        response = "You have not purchased yet purchase now from :- @adnan_shuttler ."
     bot.reply_to(message, response)
 
 
@@ -303,7 +303,7 @@ def handle_bgmi(message):
         else:
             response = " Usage :- /bgmi <target> <port> <time>" 
     else:
-        response = ("Unauthorized Access! \n\n. DM TO BUY ACCESS:- @MrRanDom8")
+        response = ("Unauthorized Access! \n\n. DM TO BUY ACCESS:- @adnan_shuttler")
 
     bot.reply_to(message, response)
 
